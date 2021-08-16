@@ -1,0 +1,566 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+    text-decoration: none;
+
+}
+
+p{
+    padding-top: 3px;
+}
+
+i{
+    color:rgb(250, 250, 250);
+    padding: 0.6em;
+    background-color: #22114b;
+    border-radius: 50%;
+    transition: all 0.4s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+i:hover{
+    color: aquamarine;
+}
+
+body{
+    
+    font-family: "Poppins", sans-serif;
+    background-color: #0c1336e5;
+    color:#fff;
+    
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    height:4em;
+    background: #22243f8e;
+    align-items:center;
+    position: sticky;
+    z-index: 1;
+    top:0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    
+    color:rgb(250, 240, 242);
+    padding:1em;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+ span{
+    color:red; 
+
+}
+
+.nav-ul{
+    display:flex;
+    justify-content:space-around;
+    width:45%;
+    padding-right:3%;
+}
+.nav-ul li{
+    list-style:none;
+}
+
+.nav-ul li a{
+    text-decoration:none;
+    transition: 0.2s;
+    color:#fff;
+   
+}
+
+.nav-ul li a:hover{
+    
+    padding:7%;
+    border-radius:2px;
+    color: aquamarine;
+}
+
+.hambargur{
+    display: none;
+}
+
+/*====BANNER===*/
+.banner{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:30em;
+    border-bottom: 1px solid rgb(110, 52, 204);
+}
+
+.banner-left{
+    
+    margin-left:7%;
+    
+}
+
+.banner-left p {
+
+    padding:3%;
+}
+
+.icons{
+    padding: 4px;
+    padding-bottom: 1em;
+    /* background-color: red; */
+    width: 13em !important;
+    margin-left:1.3em ;
+}
+
+.icons i{
+    color:rgb(250, 250, 250);
+    padding: 0.6em;
+    background-color: #22114b;
+    border-radius: 50%;
+    transition: all 0.4s;
+    margin-left: 0.5em;
+}
+
+.icons i:hover{
+    background-color: #f7131395;
+}
+
+.banner-left h1{
+  font-size: xx-large;
+}
+
+.banner-left p{
+ margin-left: 1em;
+ padding-bottom:2em;
+}
+
+.banner-left .buttons{
+  padding:2%;
+}
+
+.buttons a, button{
+    padding:4%;
+    margin-left:2%;
+    background-color: rgba(30, 29, 71, 0.514);
+    color: #fff;
+    border-radius: 14px;
+    border: 0px;
+    transition: 0.8s;
+
+}
+
+button:hover, .buttons a:hover{
+   background-color: rgba(220, 20, 60, 0.671);
+}
+
+.banner-right{
+    margin-top:5%;
+    margin-right:4%;
+    
+}
+
+.banner-right img{
+  border-radius:  50%;
+  width: 14em;
+  height:15em;
+  opacity: 0.7;
+  
+}
+
+/*====OUR SERVICES====*/
+.services-title{
+  text-align: center;
+  margin-top: 1.5em;
+  padding-top:6%;
+}
+
+hr{
+    width:5em;
+    margin:0px auto;
+    color:red;
+    margin-top:1%;
+}
+.services , .pj{
+    display: grid;
+    grid-template-columns: repeat(2,40vw);
+    grid-template-rows: auto;
+    row-gap: 8%;
+    column-gap: 8%;
+    justify-content: center;
+    position: relative;
+    padding-top: 4%;
+}
+
+
+.services .service, .project {
+    padding:5%;
+    background-color: rgba(30, 24, 51, 0.288);
+    transition: 0.4s;
+    border-radius:14px;
+    height:25vw;
+    width: 40vw; 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.service:hover, .project:hover{
+    background-color: rgba(62, 45, 100, 0.556);
+}
+
+.service i{
+
+}
+
+
+.service h2{
+  font-size:large;
+  margin-top: 27%;
+  padding-left:8%;
+}
+
+.service p, .project p{
+    font-size: 11px;
+    padding:8px;
+    margin-left:4%;
+}
+
+ 
+
+
+/*==== PROJECTS====*/
+.projects{
+    overflow: hidden;
+    padding-bottom: 6em !important;
+    width: 100%;
+    height: auto !important;
+    margin-top:0% !important;
+    margin-bottom: 0.5em;
+}
+.projects-title{
+  text-align: center;
+  margin-top: 10em;
+  padding-top:6%;
+}
+
+.project{
+    color:#fff;
+    position: relative;
+}
+
+.project .project-title{
+  margin-left: 1.5em;
+  margin-top: 27%;
+  
+}
+
+/*====TEAM MEMBERS====*/
+.tem-members{
+
+}
+
+
+/*=====REVIEW====*/
+.review{
+
+} 
+
+.hamburger{
+    display: none;
+}
+
+  
+  /*====CONTACT====*/
+    form{
+         display: flex;
+         flex-direction: column;
+         width: 90vw;
+         margin:0px auto;
+         padding: 2em;
+         padding-bottom: 9em;
+         padding-top: 7em;
+         justify-content: center;
+         align-items: center;
+     
+    }
+
+    form h2{
+        font-size: 11px;
+        margin-bottom: 2em;
+        font-weight: bold;
+        color: #fff;
+    }
+     
+    form input{
+        margin:1em; 
+        border-radius:6px;
+        border: none;
+        width: 20em;
+        background-color: #0d154331;
+        color: #fff;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    #email{
+        padding: 1em;
+    }
+
+    #text{
+        height:4em;
+        padding: 2.6em;
+    }
+
+    form button{
+     padding: 0.7em;
+     margin-left: -15em !important;
+    background-color: rgba(30, 29, 71, 0.514);
+    color: #fff;
+    border-radius: 14px;
+    border: 0px;
+    transition: 0.3s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+
+/*====FOOTER====*/
+footer{
+    width:100%;
+    height:auto;
+    background-color: #1c20365e;
+    color: #0B2A41;
+    bottom:0;
+    position:relative;
+    overflow: hidden;
+    padding: 2% 0%;
+}
+
+.mainbox{
+    display:flex;  
+    padding-bottom: 0% 0%;
+   
+}
+
+.box1{
+    width:33.33%;
+    /* border: 1px solid red; */
+   
+}
+
+.box1 h5{
+  position: absolute;
+  margin-left: 4%;
+  font-size: 15px;
+  z-index: 6;
+  color: rgb(181, 219, 240);
+}
+
+.footer-link{
+    display:flex;
+    flex-direction:column;
+    padding-bottom: 10%;
+    padding-top:10%;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 0.3em;
+    /* border: 1px solid rgb(0, 4, 255); */
+}
+
+.footer-link li {
+    list-style: none;
+    margin-bottom: 1.7em;
+   /* border: 1px solid red; */
+}
+
+.footer-link li a{
+        text-decoration:none;
+        color:rgba(185, 171, 243, 0.871);
+        transition: 0.1s;
+        font-size: 11px;
+}
+
+.footer-link li a:hover{
+        color:rgba(130, 204, 185, 0.939);
+        padding:1px;   
+}
+
+h4{
+    text-align:center;
+    color:white;
+    margin-top: 1%;
+    margin-bottom:0.2em ;
+}
+
+
+
+/*====MEDIA QUERY====*/
+
+@media (max-width: 700px){
+ 
+    .logo{
+        padding-left:1%;
+
+        
+    }
+     .nav-ul{
+         margin-right: 4%;
+     }
+    .nav-ul li{
+        
+        margin-right: 7%;
+
+    }
+
+    .nav-ul li a{
+        
+        font-size: 12px;
+    }
+     
+    .nav-ul li a:hover{
+        padding: 0px;
+        
+    }
+
+
+    /*====BANNER====*/
+    .banner{
+        height: 25em;
+        
+    }
+    .banner-left{
+        padding: 4%;
+        /* border: 1px solid red; */
+        margin-left: 7em;
+    }
+
+    .banner-left h1{
+        font-size: 23px;
+        padding-bottom: 4%;
+    
+    }
+
+    .banner-left p{
+      
+        margin-left: 0.5em;
+    }
+
+    .banner-left .icons{
+        /* margin-left: ; */
+    }
+
+.banner-left .buttons{
+    /* border: 1px solid red; */
+    width: 22em !important;
+    margin-left: -2.3em;
+}
+
+.buttons a, button{
+    padding:4%;
+    margin-left:2%;
+    background-color: rgba(30, 29, 71, 0.514);
+    color: #fff;
+    border-radius: 14px;
+    border: 0px;
+    transition: 0.8s;
+ 
+
+}
+
+    .banner-right{
+        display: none;
+    }
+
+    /*=====SERVICES & PROJECTS===*/
+
+    .services-title{
+        
+        margin-top: 0.2em;
+    }
+
+    .services, .projects{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4%;
+    }
+    .service, .project{
+        
+        width:70vw !important;
+        height:50vw !important;
+        margin-bottom: 2.8em;
+     
+    }
+
+    .service h2{
+        margin-top: 17vw;
+    }
+    
+    .project-title{
+        margin-top: 17vw !important;
+    }
+
+    /*====CONTACT====*/
+    form{
+
+    }
+
+    form input{
+
+    }
+
+    form button{
+
+    }
+
+    /*====FOOTER===*/
+    .footer-link{
+        margin-top: 2em;
+        padding-bottom: 2em;
+        font-size: 11px;
+        
+    }
+    
+    .box1{
+        width:50%;
+    }
+
+    
+    .footer-link li{
+        margin-bottom: 3em;
+    }
+
+    h4{
+        margin-top:1%;
+    }
+}
+
+
+
+@media (max-width: 505px){
+
+    .service, .project{
+        
+        width:70vw !important;
+        height:50vw !important;
+        margin-bottom: 2.8em;
+     
+    }
+
+    .service h2{
+        margin-top: 14vw;
+    }
+    
+    .project-title{
+        margin-top: 14vw !important;
+    }
+
+    .service p, .project p{
+        font-size: 11px;
+        padding-left:8%;
+    }
+    
+
+    /* FOOTER */
+    .last-box{
+        display: none;
+    }
+}
